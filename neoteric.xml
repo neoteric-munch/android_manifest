@@ -99,6 +99,10 @@
   <remove-project name="platform/frameworks/libs/systemui" />
   <project path="frameworks/libs/systemui" name="android_frameworks_libs_systemui" remote="neoteric" />
 
+  <!-- Hardware -->
+  <remove-project name="platform/hardware/interfaces" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="neoteric" />
+
   <!-- Hardware (Lineage) -->
   <project path="hardware/lineage/compat" name="android_hardware_lineage_compat" remote="neoteric" />
 
@@ -137,6 +141,8 @@
   <project path="system/fs/fs_mgr" name="android_system_fs_fs_mgr" remote="neoteric" />
   <remove-project name="platform/system/core" />
   <project path="system/core" name="android_system_core" remote="neoteric" />
+  <remove-project name="platform/system/media" />
+  <project path="system/media" name="android_system_media" remote="neoteric" />
   <remove-project name="platform/system/sepolicy" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="neoteric" />
   <remove-project name="platform/system/memory/libion" />
