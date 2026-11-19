@@ -2,7 +2,7 @@
     <project remote="clo-la" name="device/qcom/common" path="device/qcom/common" revision="1464d2f30b5722c60d22ba2433256eab4d2086d8" upstream="refs/heads/qcom-devices.lnx.16.0.r2-rel">
         <linkfile dest="vendor/qcom/build/tasks/generate_extra_images.mk" src="generate_extra_images.mk" />
     </project>
-    <project remote="clo-la" name="device/qcom/sepolicy_vndr" path="device/qcom/sepolicy_vndr" revision="c8ef7a65057b7099f60d940f4992b99409aaf45c" upstream="refs/heads/sepolicy.vndr.lnx.16.0.r1-rel" />
+    <project remote="clo-la" name="device/qcom/sepolicy_vndr" path="device/qcom/sepolicy_vndr" revision="2c5e3122be9cf4fbad3c7bfaba0119cde834ce1e" upstream="refs/heads/sepolicy.vndr.lnx.16.0.r1-rel" />
     <project remote="clo-la" name="device/qcom/vendor-common" path="device/qcom/vendor-common" revision="2f8e47ef67e3515f6354c3cc8261ee894148eed0" upstream="refs/heads/qcom-devices.lnx.16.0.r2-rel" />
     <project remote="clo-la" name="meta-qti-touch" path="disregard/poky/meta-qti-touch" revision="330b90f53b8306a08b2a2e06d605bbf41256a78e" upstream="refs/heads/touch-kernel.lnx.11.0.r11-rel" />
     <project remote="clo-la" name="platform/hardware/qcom/bootctrl" path="hardware/qcom/bootctrl" revision="bdc63e5f9adc54a11c4b5e089c4070cf247102ae" upstream="refs/heads/android-core.lnx.16.0.r2-rel" />
