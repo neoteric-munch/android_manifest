@@ -76,6 +76,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="neoteric" />
   <remove-project name="platform/external/libjxl" />
+  <project path="external/json-c" name="android_external_json-c" remote="neoteric" />
   <project path="external/libjxl" name="android_external_libjxl" remote="neoteric" />
   <remove-project name="platform/external/mksh" />
   <project path="external/mksh" name="android_external_mksh" remote="neoteric" />
