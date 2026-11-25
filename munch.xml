@@ -16,6 +16,9 @@
   <extend-project name="android_hardware_lineage_compat" remote="neoteric-munch" revision="refs/heads/bka" />
   <extend-project name="android_hardware_qcom_thermal" remote="neoteric-munch" revision="refs/heads/bka" />
 
+  <!-- Hardware -->
+  <project path="hardware/xiaomi" name="hardware_xiaomi" remote="neoteric" />
+
   <!-- Hardware (sm8250 CAF) -->
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="neoteric" revision="refs/heads/vic-8250" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="neoteric" revision="refs/heads/vic-8250" />
