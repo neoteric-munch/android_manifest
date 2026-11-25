@@ -58,6 +58,7 @@
 
   <include name="neoteric.xml"/>
   <include name="internal.xml" />
+  <include name="munch.xml" />
 
   <!-- Remove extraneous projects -->
   <include name="obsolete.xml"/>

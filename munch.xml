@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- neoteric-munch -->
+  <remote  name="neoteric-munch"
+           fetch="https://github.com/neoteric-munch"
+           revision="refs/heads/bka" />
+
+  <!-- Device -->
+  <project path="device/xiaomi/munch" name="device_xiaomi_munch" remote="neoteric-munch" />
+  <project path="kernel/xiaomi/sm8250" name="kernel_xiaomi_munch" remote="neoteric-munch" />
+  <project path="vendor/xiaomi/munch" name="android_vendor_xiaomi_munch" remote="neoteric-munch" />
+
+  <!-- Forks of Neoteric projects -->
+  <extend-project name="android_device_qcom_common" remote="neoteric-munch" revision="refs/heads/bka" />
+  <extend-project name="android_hardware_lineage_compat" remote="neoteric-munch" revision="refs/heads/bka" />
+  <extend-project name="android_hardware_qcom_thermal" remote="neoteric-munch" revision="refs/heads/bka" />
+
+  <!-- Hardware (sm8250 CAF) -->
+  <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" remote="neoteric" revision="refs/heads/vic-8250" />
+  <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" remote="neoteric" revision="refs/heads/vic-8250" />
+  <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" remote="neoteric" revision="refs/heads/vic-8250" />
+
+  <!-- Vendor -->
+  <project path="vendor/dolby" name="android_vendor_dolby" remote="neoteric-munch" revision="refs/heads/main" />
+  <project path="vendor/xiaomi/miuicamera" name="munch-devs/android_vendor_xiaomi_miuicamera" remote="github" revision="refs/heads/16" />
+
+</manifest>
