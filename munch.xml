@@ -14,6 +14,7 @@
   <!-- Forks of Neoteric projects -->
   <extend-project name="android_device_qcom_common" remote="neoteric-munch" revision="refs/heads/bka" />
   <extend-project name="android_hardware_lineage_compat" remote="neoteric-munch" revision="refs/heads/bka" />
+  <extend-project name="android_frameworks_base" remote="neoteric-munch" revision="refs/heads/bka" />
   <extend-project name="android_hardware_qcom_thermal" remote="neoteric-munch" revision="refs/heads/bka" />
 
   <!-- Hardware -->
